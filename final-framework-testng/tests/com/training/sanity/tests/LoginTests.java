@@ -35,9 +35,10 @@ public class LoginTests {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
 		loginPOM = new LoginPOM(driver); 
 		baseUrl = properties.getProperty("baseURL");
+		driver.get(baseUrl);
 		screenShot = new ScreenShot(driver); 
 		// open the browser 
-		driver.get(baseUrl);
+		
 	}
 	
 	@AfterMethod
