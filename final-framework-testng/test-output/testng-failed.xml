@@ -6,9 +6,9 @@
       <class name="com.training.sanity.tests.LoginTests">
         <methods>
           <include name="setUpBeforeClass"/>
+          <include name="MediunTestCAse2"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="validLoginTest"/>
         </methods>
       </class> <!-- com.training.sanity.tests.LoginTests -->
     </classes>
